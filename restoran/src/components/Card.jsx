@@ -34,7 +34,7 @@ const Card = ({foto, nama, harga}) => {
 				</button>
 				<input
 					type="number"
-					className="w-1/2 h-12 bg-red-400 rounded-md flex items-center justify-center text-center"
+					className="w-1/2 h-12 bg-red-400 rounded-md flex items-center justify-center text-center text-white"
 					value={value}
 					onChange={(e) => setValue(parseInt(e.target.value))}
 					min={0}
