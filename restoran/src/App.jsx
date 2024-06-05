@@ -1,15 +1,13 @@
 import './App.css'
-import Cards from './components/Cards'
-import Navbar from './components/Navbar'
+import Admin from './pages/Admin'
+import Pelanggan from './pages/Pelanggan'
 
 function App() {
 
   return (
     <>
-    <div className='relative'>
-      <Navbar />
-      <Cards />
-    </div>
+      <Admin />
+      <Pelanggan />
     </>
   )
 }
