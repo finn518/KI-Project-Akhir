@@ -1,13 +1,11 @@
 import './App.css'
-import Admin from './pages/Admin'
-import Pelanggan from './pages/Pelanggan'
+import Routes from '../src/routes/Routes'
 
 function App() {
 
   return (
     <>
-      <Admin />
-      <Pelanggan />
+    <Routes />
     </>
   )
 }
